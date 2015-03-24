@@ -41,10 +41,22 @@
       background-size: cover;
       min-height: 100vh;
     }
-    #intro
+    #intro,
+    #jobs
     {
       margin-left: 4em;
       margin-top: 4em;
+      max-width: 700px;
+    }
+    #jobs .hellohired-job .title
+    {
+      line-height: 1.4em;
+    }
+    #jobs a
+    {
+      text-decoration: none;
+      border-bottom: 1px solid #8ead52;
+      color: #8ead52;
     }
     @media screen and (max-width: 600px)
     {
@@ -52,7 +64,8 @@
       {
         background-image: url(animail-38.jpg);
       }
-      #intro
+      #intro,
+      #jobs
       {
         margin-right: 4em;
       }
@@ -75,6 +88,17 @@
       <div id="intro">
         <h1>Open source software at Animail</h1>
         <p>At Animail we use a lot of awesome open source products to make our everyday work a bit easier.</p>
+      </div>
+      <div id="jobs">
+        <script type="text/javascript">
+         var c = "9Gex8be5";
+         var t = "_self";
+         var e = document.createElement("script");
+         e.src = "http://www.hellohired.com/api/v1/job_widgets.js";
+         document.getElementsByTagName("head")[0].appendChild(e);
+        </script>
+        <h2>Work with us</h2>
+        <div id="hellohired-jobs">We don't have any openings right now. :(</div>
       </div>
     </div>
   </body>
